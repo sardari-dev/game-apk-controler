@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">گیم‌بریج</string>
+
+    <!-- Accessibility service -->
+    <string name="a11y_service_label">گیم‌بریج — پل ورودی بازی</string>
+    <string name="a11y_service_summary">تبدیل کیبورد و موس به کنترل لمسی برای بازی‌ها</string>
+    <string name="a11y_service_description">گیم‌بریج کیبورد و موس USB/بلوتوث شما را به کنترلر لمسی تبدیل می‌کند تا بازی‌هایی مثل کالاف دیوتی موبایل را با حرکت WASD، نشانه‌گیری با موس و کی‌مپ دلخواه بازی کنید. این برنامه فقط لمس تزریق می‌کند و هرگز داده‌های بازی را نمی‌خواند یا تغییر نمی‌دهد.</string>
+
+    <!-- Common -->
+    <string name="ok">تأیید</string>
+    <string name="cancel">انصراف</string>
+    <string name="save">ذخیره</string>
+    <string name="close">بستن</string>
+    <string name="delete">حذف</string>
+    <string name="edit">ویرایش</string>
+    <string name="add">افزودن</string>
+    <string name="back">بازگشت</string>
+    <string name="exit">خروج</string>
+    <string name="rename">تغییر نام</string>
+    <string name="none">هیچ‌کدام</string>
+
+    <!-- Home -->
+    <string name="status_service">سرویس دسترسی‌پذیری</string>
+    <string name="service_on">فعال</string>
+    <string name="service_off">غیرفعال</string>
+    <string name="open_accessibility">رفتن به تنظیمات</string>
+    <string name="mouse_connected">موس متصل است</string>
+    <string name="keyboard_connected">کیبورد متصل است</string>
+    <string name="not_connected">متصل نیست</string>
+    <string name="select_game">انتخاب بازی</string>
+    <string name="pick_app">انتخاب هر برنامه</string>
+    <string name="installed_games">بازی‌های نصب‌شده</string>
+    <string name="all_apps">همه برنامه‌ها</string>
+    <string name="profile">پروفایل کی‌مپ</string>
+    <string name="edit_keymap">ویرایش کی‌مپ</string>
+    <string name="settings">تنظیمات</string>
+    <string name="launch_game">شروع بازی</string>
+    <string name="toast_enable_service_first">اول سرویس دسترسی‌پذیری را از دکمه بالا فعال کن</string>
+    <string name="toast_launching">در حال اجرا… داخل بازی دکمه شناور را ببین</string>
+    <string name="hint_hotkeys">داخل بازی: %1$s = قفل/آزاد موس · %2$s = منوی شناور</string>
+
+    <!-- Disclaimer -->
+    <string name="disclaimer_title">قبل از شروع</string>
+    <string name="disclaimer_body">گیم‌بریج فقط یک مپر ورودی است — مثل مپرهای گیم‌پد. بازی را تغییر نمی‌دهد، حافظه بازی را نمی‌خواند و هیچ امکان تقلبی (ایم‌بات و…) اضافه نمی‌کند. با این حال، ناشر بازی ممکن است ابزارهای ورودی شخص ثالث را خلاف قوانین خود بداند و گزارش‌هایی از بن اکانت برای اپ‌های مشابه وجود دارد. با آگاهی کامل از ریسک استفاده کن.</string>
+    <string name="disclaimer_accept">ریسک را متوجه‌ام</string>
+
+    <!-- Editor -->
+    <string name="editor_title">ادیتور کی‌مپ</string>
+    <string name="add_button">دکمه جدید</string>
+    <string name="joystick">جوی‌استیک</string>
+    <string name="joystick_radius">شعاع جوی‌استیک</string>
+    <string name="camera_anchor">نقطه درگ دوربین</string>
+    <string name="action_type">نوع اکشن</string>
+    <string name="action_tap">تپ</string>
+    <string name="action_hold">نگه‌داشتن</string>
+    <string name="action_toggle">تاگل</string>
+    <string name="trigger">تریگر</string>
+    <string name="record_key">یک کلید را فشار بده…</string>
+    <string name="key_assigned">کلید ثبت شد</string>
+    <string name="mouse_left">کلیک چپ</string>
+    <string name="mouse_right">کلیک راست</string>
+    <string name="mouse_middle">کلیک وسط</string>
+    <string name="wheel_up">چرخ به بالا</string>
+    <string name="wheel_down">چرخ به پایین</string>
+    <string name="pick_screenshot">انتخاب اسکرین‌شات پس‌زمینه</string>
+    <string name="screenshot_hint">اختیاری: یک اسکرین‌شات از گیم‌پلی وارد کن تا دکمه‌ها را دقیق بچینی</string>
+    <string name="is_aim">این دکمه ADS (نشانه‌گیری) است — هنگام نگه‌داشتن، حساسیت مخصوص ADS اعمال شود</string>
+    <string name="profile_saved">پروفایل ذخیره شد</string>
+    <string name="reset_center">برگرد به مرکز</string>
+    <string name="button_label">نام دکمه</string>
+
+    <!-- Settings -->
+    <string name="sens_x">حساسیت موس (افقی)</string>
+    <string name="sens_y">حساسیت موس (عمودی)</string>
+    <string name="ads_scale">ضریب حساسیت هنگام نشانه‌گیری (ADS)</string>
+    <string name="invert_y">معکوس کردن محور عمودی</string>
+    <string name="auto_lock">قفل خودکار موس با شروع بازی</string>
+    <string name="lock_key">کلید قفل/آزاد کردن موس</string>
+    <string name="menu_key">کلید منوی شناور</string>
+    <string name="mouse_mode">حالت کپچر موس</string>
+    <string name="mode_auto">خودکار (پیشنهادی)</string>
+    <string name="mode_capture">کپچر سیستمی (اندروید ۱۴+)</string>
+    <string name="mode_hover">سازگاری (هاور)</string>
+    <string name="diagnostics">عیب‌یابی زنده</string>
+    <string name="diagnostics_hint">بازی را باز کن، موس را تکان بده یا کلید بزن — رویدادها اینجا نمایش داده می‌شوند. برای عیب‌یابی خیلی کاربردی است.</string>
+    <string name="clear">پاک کردن</string>
+    <string name="about_version">نسخه %1$s</string>
+    <string name="about_github">سورس‌کد در گیت‌هاب</string>
+    <string name="samsung_tip">نکته سامسونگ: بهینه‌سازی باتری را برای گیم‌بریج خاموش کن تا سیستم وسط مسابقه سرویس را نبندد.</string>
+
+    <!-- Floating panel (in-game) -->
+    <string name="panel_lock_mouse">قفل موس</string>
+    <string name="panel_locked">قفل</string>
+    <string name="panel_unlocked">آزاد</string>
+    <string name="panel_sensitivity">حساسیت</string>
+    <string name="panel_edit_keymap">ویرایش کی‌مپ</string>
+    <string name="panel_hide">پنهان</string>
+    <string name="panel_exit">پایان جلسه</string>
+
+    <!-- Editor overlay -->
+    <string name="oe_drag_hint">بکش تا جابه‌جا شود · لمس کن برای گزینه‌ها</string>
+    <string name="oe_save">ذخیره</string>
+    <string name="oe_discard">بی‌خیال</string>
+    <string name="oe_change_key">تغییر کلید</string>
+    <string name="oe_action_type">نوع اکشن</string>
+    <string name="oe_delete">حذف</string>
+    <string name="oe_listening">یک کلید یا دکمه موس را فشار بده…</string>
+    <string name="oe_new_button">دکمه جدید</string>
+    <string name="oe_joystick_opts">تنظیمات جوی‌استیک</string>
+    <string name="oe_walk_deflection">میزان انحراف برای راه رفتن آرام</string>
+</resources>

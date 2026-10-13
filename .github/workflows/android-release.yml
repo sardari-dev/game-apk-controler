@@ -1,0 +1,62 @@
+name: Android Release
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Build release APK
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon --stacktrace
+
+      - name: Verify APK
+        run: |
+          ls -la app/build/outputs/apk/release/
+          cp app/build/outputs/apk/release/app-release.apk GameBridge-release.apk
+
+      - name: Create GitHub Release (main only)
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.${{ github.run_number }}
+          name: GameBridge v1.0.${{ github.run_number }}
+          body: |
+            ## GameBridge — Keyboard & Mouse mapper for COD Mobile
+
+            ### نصب / Install
+            دانلود `GameBridge-release.apk` از پایین صفحه و نصب روی گوشی (Android 8.0+، توصیه: Android 14+).
+
+            ### Highlights
+            - 🖱️ Real mouse lock via Android 14 accessibility motion-event capture (no root)
+            - 🕹️ WASD → analog joystick drag (hold & drag, not clicks)
+            - 🗺️ In-game floating menu + live keymap editor over the game
+            - 🎚️ Mouse sensitivity (X/Y), ADS sensitivity scale, invert Y
+            - 📱 Custom keymap profiles, works with any game (COD Mobile preset included)
+
+            > ⚠️ Input mapper only — not a cheat. Game ToS risk disclaimer applies (see README).
+          files: GameBridge-release.apk
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

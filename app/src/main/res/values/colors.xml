@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_amber">#F59E0B</color>
+    <color name="brand_amber_dark">#B45309</color>
+    <color name="bg_dark">#0B0B0F</color>
+    <color name="surface_dark">#16161C</color>
+    <color name="surface_dark_2">#1F1F27</color>
+    <color name="ic_launcher_background">#0C0C0F</color>
+    <color name="floatie_locked">#F59E0B</color>
+    <color name="floatie_free">#3F3F46</color>
+</resources>

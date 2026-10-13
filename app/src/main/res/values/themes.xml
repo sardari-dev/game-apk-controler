@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GameBridge" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/brand_amber</item>
+        <item name="colorOnPrimary">#1A1206</item>
+        <item name="colorPrimaryContainer">@color/brand_amber_dark</item>
+        <item name="android:colorBackground">@color/bg_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GameBridge</string>
+
+    <!-- Accessibility service -->
+    <string name="a11y_service_label">GameBridge Input Bridge</string>
+    <string name="a11y_service_summary">Maps keyboard and mouse to touch controls for games</string>
+    <string name="a11y_service_description">GameBridge turns your USB/Bluetooth keyboard and mouse into a touch controller so you can play games like Call of Duty Mobile with WASD movement, mouse aim and custom keymaps. It injects touches on your behalf and never reads or modifies game data.</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="back">Back</string>
+    <string name="exit">Exit</string>
+    <string name="rename">Rename</string>
+    <string name="none">None</string>
+
+    <!-- Home -->
+    <string name="status_service">Accessibility service</string>
+    <string name="service_on">Enabled</string>
+    <string name="service_off">Disabled</string>
+    <string name="open_accessibility">Open settings</string>
+    <string name="mouse_connected">Mouse connected</string>
+    <string name="keyboard_connected">Keyboard connected</string>
+    <string name="not_connected">Not connected</string>
+    <string name="select_game">Select game</string>
+    <string name="pick_app">Pick any app</string>
+    <string name="installed_games">Installed games</string>
+    <string name="all_apps">All apps</string>
+    <string name="profile">Keymap profile</string>
+    <string name="edit_keymap">Edit keymap</string>
+    <string name="settings">Settings</string>
+    <string name="launch_game">LAUNCH GAME</string>
+    <string name="toast_enable_service_first">Enable the accessibility service first (button above)</string>
+    <string name="toast_launching">Launching… tap the floating button in-game</string>
+    <string name="hint_hotkeys">In game: %1$s = lock/free mouse · %2$s = floating menu</string>
+
+    <!-- Disclaimer -->
+    <string name="disclaimer_title">Before you start</string>
+    <string name="disclaimer_body">GameBridge is an input mapper only — like gamepad mappers. It does NOT modify the game, read game memory, or give auto-aim/ESP. However, game publishers may consider third-party input tools a violation of their terms of service, and account bans have been reported for similar apps. Use it at your own risk.</string>
+    <string name="disclaimer_accept">I understand the risk</string>
+
+    <!-- Editor -->
+    <string name="editor_title">Keymap editor</string>
+    <string name="add_button">New button</string>
+    <string name="joystick">Joystick</string>
+    <string name="joystick_radius">Joystick radius</string>
+    <string name="camera_anchor">Camera drag point</string>
+    <string name="action_type">Action type</string>
+    <string name="action_tap">Tap</string>
+    <string name="action_hold">Hold</string>
+    <string name="action_toggle">Toggle</string>
+    <string name="trigger">Trigger</string>
+    <string name="record_key">Press any key…</string>
+    <string name="key_assigned">Key assigned</string>
+    <string name="mouse_left">Mouse left</string>
+    <string name="mouse_right">Mouse right</string>
+    <string name="mouse_middle">Mouse middle</string>
+    <string name="wheel_up">Wheel up</string>
+    <string name="wheel_down">Wheel down</string>
+    <string name="pick_screenshot">Set background screenshot</string>
+    <string name="screenshot_hint">Optional: import a gameplay screenshot to place buttons precisely</string>
+    <string name="is_aim">This is ADS (aim) — use aim sensitivity while held</string>
+    <string name="profile_saved">Profile saved</string>
+    <string name="reset_center">Reset to center</string>
+    <string name="button_label">Button label</string>
+
+    <!-- Settings -->
+    <string name="sens_x">Mouse sensitivity (horizontal)</string>
+    <string name="sens_y">Mouse sensitivity (vertical)</string>
+    <string name="ads_scale">Sensitivity scale while aiming (ADS)</string>
+    <string name="invert_y">Invert vertical axis</string>
+    <string name="auto_lock">Auto-lock mouse when game starts</string>
+    <string name="lock_key">Lock / free mouse key</string>
+    <string name="menu_key">Floating menu key</string>
+    <string name="mouse_mode">Mouse capture mode</string>
+    <string name="mode_auto">Auto (recommended)</string>
+    <string name="mode_capture">System capture (Android 14+)</string>
+    <string name="mode_hover">Compatibility (hover)</string>
+    <string name="diagnostics">Live diagnostics</string>
+    <string name="diagnostics_hint">Open the game, move the mouse/press keys — events appear here. Useful for troubleshooting.</string>
+    <string name="clear">Clear</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_github">Source code on GitHub</string>
+    <string name="samsung_tip">Samsung tip: disable battery optimization for GameBridge so the system does not stop the service during matches.</string>
+
+    <!-- Floating panel (in-game) -->
+    <string name="panel_lock_mouse">Lock mouse</string>
+    <string name="panel_locked">LOCKED</string>
+    <string name="panel_unlocked">FREE</string>
+    <string name="panel_sensitivity">Sensitivity</string>
+    <string name="panel_edit_keymap">Edit keymap</string>
+    <string name="panel_hide">Hide</string>
+    <string name="panel_exit">Exit session</string>
+
+    <!-- Editor overlay -->
+    <string name="oe_drag_hint">Drag to move · tap for options</string>
+    <string name="oe_save">Save</string>
+    <string name="oe_discard">Discard</string>
+    <string name="oe_change_key">Change key</string>
+    <string name="oe_action_type">Action type</string>
+    <string name="oe_delete">Delete</string>
+    <string name="oe_listening">Press a key or mouse button…</string>
+    <string name="oe_new_button">New button</string>
+    <string name="oe_joystick_opts">Joystick options</string>
+    <string name="oe_walk_deflection">Walk (slow) deflection</string>
+</resources>
